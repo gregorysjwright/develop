@@ -2,7 +2,7 @@ From python
 
 WORKDIR /var/www
 
-#ENV NAME=____
+ENV MY_USER_NAME="GREG"
 
 COPY ./test1.py /var/www/test1.py
 COPY ./requirements.txt /var/www/requirements.txt
